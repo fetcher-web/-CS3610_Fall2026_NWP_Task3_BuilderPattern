@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="fIhm-0FlrEiyW46pHnRk">
+    <mxGraphModel dx="1608" dy="2438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="GhQqXVHXuAuNd4JHkfTy-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404" y="92" as="sourcePoint" />
+            <mxPoint x="369" y="132" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-12" edge="1" parent="1" source="GhQqXVHXuAuNd4JHkfTy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403.9999999999999" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;Director&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="148" width="230" x="289" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-7" parent="GhQqXVHXuAuNd4JHkfTy-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;- __builder: CustomerBuilder&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-8" parent="GhQqXVHXuAuNd4JHkfTy-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="230" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-9" parent="GhQqXVHXuAuNd4JHkfTy-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;+ __init__()&lt;br/&gt;+ builder: CustomerBuilder&lt;br/&gt;+ make(customerData: dict): None&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="70" width="230" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-34" edge="1" parent="1" source="GhQqXVHXuAuNd4JHkfTy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=0;" target="GhQqXVHXuAuNd4JHkfTy-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-41" edge="1" parent="1" source="GhQqXVHXuAuNd4JHkfTy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GhQqXVHXuAuNd4JHkfTy-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;WebAppBuilder&lt;br/&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="240" width="369" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-18" parent="GhQqXVHXuAuNd4JHkfTy-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;- product: Customer&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="26" width="369" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-19" parent="GhQqXVHXuAuNd4JHkfTy-17" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="369" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-20" parent="GhQqXVHXuAuNd4JHkfTy-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;+ __init__()&lt;br/&gt;+ reset(): None&lt;br/&gt;+ firstName(value: str): CustomerBuilder&lt;br/&gt;+ middleName(value: str): CustomerBuilder&lt;br/&gt;+ lastName(value: str): CustomerBuilder&lt;br/&gt;+ primaryEmail(value: str): CustomerBuilder&lt;br/&gt;+ secondaryEmail(value: str): CustomerBuilder&lt;br/&gt;+ primaryMobileNumber(value: str): CustomerBuilder&lt;br/&gt;+ secondaryMobileNumber(value: str): CustomerBuilder&lt;br/&gt;+ product: Customer {readOnly}&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="180" width="369" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-40" edge="1" parent="1" source="GhQqXVHXuAuNd4JHkfTy-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GhQqXVHXuAuNd4JHkfTy-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-21" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;MobileAppBuilder&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="240" width="360" x="440" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-22" parent="GhQqXVHXuAuNd4JHkfTy-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;- __product: Customer&lt;br/&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="26" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-23" parent="GhQqXVHXuAuNd4JHkfTy-21" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="360" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-24" parent="GhQqXVHXuAuNd4JHkfTy-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;+ __init__()&lt;br/&gt;+ reset(): None&lt;br/&gt;+ firstName(value: str): CustomerBuilder&lt;br/&gt;+ middleName(value: str): CustomerBuilder&lt;br/&gt;+ lastName(value: str): CustomerBuilder&lt;br/&gt;+ primaryEmail(value: str): CustomerBuilder&lt;br/&gt;+ secondaryEmail(value: str): CustomerBuilder&lt;br/&gt;+ primaryMobileNumber(value: str): CustomerBuilder&lt;br/&gt;+ secondaryMobileNumber(value: str): CustomerBuilder&lt;br/&gt;+ product: Customer {readOnly}&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="180" width="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-25" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Client&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="334" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-26" parent="GhQqXVHXuAuNd4JHkfTy-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;+ main(): None &lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="44" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-29" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;code&gt;CustomerBuilder&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="174" width="360" x="224" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-30" parent="GhQqXVHXuAuNd4JHkfTy-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;+ firstName(value: str): CustomerBuilder&lt;br&gt;+ middleName(value: str): CustomerBuilder&lt;br&gt;+ lastName(value: str): CustomerBuilder&lt;br&gt;+ primaryEmail(value: str): CustomerBuilder&lt;br&gt;+ secondaryEmail(value: str): CustomerBuilder&lt;br&gt;+ primaryMobileNumber(value: str): CustomerBuilder&lt;br&gt;+ secondaryMobileNumber(value: str): CustomerBuilder&lt;br&gt;+ product: Customer {readOnly}&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="148" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-35" edge="1" parent="1" source="GhQqXVHXuAuNd4JHkfTy-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.481;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" target="GhQqXVHXuAuNd4JHkfTy-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-36" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;Customer&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="220" width="260" x="274" y="852" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-37" parent="GhQqXVHXuAuNd4JHkfTy-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;+ firstName: str&lt;br/&gt;+ middleName: str [0..1]&lt;br/&gt;+ lastName: str&lt;br/&gt;+ primaryEmail: str&lt;br/&gt;+ secondaryEmail: str [0..1]&lt;br/&gt;+ primaryMobileNumber: str&lt;br/&gt;+ secondaryMobileNumber: str [0..1]&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="124" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-38" parent="GhQqXVHXuAuNd4JHkfTy-36" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="260" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-39" parent="GhQqXVHXuAuNd4JHkfTy-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;+ __init__()&lt;br/&gt;+ __str__(): str&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="62" width="260" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;code dir=&quot;ltr&quot;&gt;«interface»&lt;/code&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="224" y="292" as="geometry" />
+        </mxCell>
+        <mxCell id="GhQqXVHXuAuNd4JHkfTy-43" parent="1" style="shape=wedgeCallout;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;Optional methods do &lt;br&gt;not modify the product:&lt;br&gt;- middleName()&lt;br&gt;- secondaryEmail()&lt;br&gt;- secondaryMobileNumber()&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="100" width="190" x="630" y="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
